@@ -4,10 +4,10 @@
 import datetime
 
 if datetime.datetime.today().weekday() == 3:
-  print("Today is a day that starts with T")
+  print("Today starts with T") 
 
   if datetime.datetime.today().weekday() == 5:
-    print("Today is a day that starts with T")
+    print("Today starts with T")
 
 else:
   print("Today does not start with T")
