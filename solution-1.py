@@ -1,17 +1,29 @@
 # Maura Hurley 31 March 2019
 # Solution to problem 1
-# Sum from and to a number
+# Aggregate a range from 1 to i
 
-## Ask the user for the number to sum up to (call it i):
+# Ask the user for a positive integer (i):
 
-i = int (input("Please enter a positive integer greater than 0: "))
+i= int (input("Please enter a positive integer greater than 0: "))
 
-Total = 0
+# Establish the start of the range (0)
 
-## Create a looping statement that decrements i by 1:
+start = 0
 
-while i > 0:
-    Total = Total + i
-    i = i -1
+#Increase the end of the range by 1 to ensure it is included:
 
-print (Total)
+i = i + 1
+
+#Sum the Range and call it result:
+
+result = sum(range(start,i))
+
+#If negative number is entered ask the user to enter a positive number
+
+#(i is incremented by 1 above so <= 1 is used)
+
+if i <= 1:
+  print("Please input a positive integer")
+#Print the result
+else:
+  print("The Aggregate (from 0) is", result)
