@@ -1,5 +1,5 @@
 # Maura Hurley 31 March 2019
-# Solution to problem 1
+# Solution to problem 1 in the 2019 Problem Set
 # Aggregate a range from 1 to i
 
 # Ask the user for a positive integer (i):
@@ -10,7 +10,7 @@ i= int (input("Please enter a positive integer greater than 0: "))
 
 start = 0
 
-# Increase the end of the range by 1 to ensure it is included:
+# Increase i by 1 to ensure that the end of the range is included:
 
 i = i + 1
 
