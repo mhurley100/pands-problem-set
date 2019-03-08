@@ -1,23 +1,32 @@
 # Programming and Scripting Poblemset
 
-This repositorty contains the solution to the 2019 problem set for the Programming and Scripting Module @ GMIT.
+This repository contains the solution to the 2019 problem set for the Programming and Scripting Module @ GMIT.
 
-[Instructions]  inc pdf file here
+[Problem set assigned is located:]  C:\Users\irmhu\Desktop\pands-problem-set\2019 Problem set.pdf
 
 Prerequisites
-Research online, class notes and python
+Each file has a standard format 
+    Student Name 
+    Due Date 
+    Problem number in set and 
+    Problem explained
 
+Research
+Online, class notes and python documentation
 
 # Each problem set contains the following:
 
 Solution-1.py
-
-The user enters any positive integer and the sum of the values between 1 and that number is output.
-
-If the user enters 0 or a negative number, they are requested to enter a positive integer
-
-
-
+Solution-2.py
+Solution-3.py
+Solution-4.py
+Solution-5.py
+Solution-6.py
+Solution-7.py
+Solution-8.py
+Solution-9.py
+Solution-10.py
 
 
 Acknowledgments
+
