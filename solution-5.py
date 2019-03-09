@@ -1,5 +1,5 @@
 # Maura Hurley 31 March 2019
-# # Solution to problem 5
+# # Solution to problem 5 in the 2019 Problem Set
 # Is it a prime number?
 
 # A prime number is only divisible by itself and 1
@@ -18,4 +18,5 @@ if n > 1:
       break
 
   else:
+# loop did not find a factor:
     print(n, "is a prime number")
