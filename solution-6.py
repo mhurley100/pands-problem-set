@@ -6,5 +6,6 @@
 s = str (input("Please enter a sentence: "))
 
 # Use the split to break up the sentence into words
-for words in s.split()[1::2]:
-    print(words)
+for words in s.split()[::2]:
+# Used stackoverflow to help print across [https://stackoverflow.com/a/10750004]
+    print(words,end=' ')

@@ -7,12 +7,12 @@ import datetime as dt
 
 # Tuesday is day 1 therefore it starts with a "T" (Monday is 0)
 if dt.datetime.today().weekday() == 1:
-  print("Today is a day that starts with T") 
+  print("Yes today begins with a T") 
 
 # Thursday is day 3 therefore it starts with a "T"
 elif dt.datetime.today().weekday() == 3:
- print("Today is a day that starts with T")
+ print("Yes - today begins with a T")
 
 # Any other days do not start with "T"
 else:
-  print("Today does not start with T")
+  print("No - today does not begin with a T")
