@@ -3,4 +3,5 @@
 # Output todays date in format "Monday,January 10th 2019 at 1:15pm”. 
 
 import datetime
-print(datetime.datetime.now().strftime("%d-%m-%Y %H:%M:%S"))
+# Stackoverflow for the codes:
+print(datetime.datetime.now().strftime("%A,%B %d %Y at %I:%M%p"))

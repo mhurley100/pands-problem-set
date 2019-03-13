@@ -5,13 +5,13 @@
 # Import python module datetime and call it dt
 import datetime as dt
 
-# Tuesday is day 3 therefore if weekday is day 3 then it starts with a "T"
-if dt.datetime.today().weekday() == 3:
+# Tuesday is day 1 therefore it starts with a "T" (Monday is 0)
+if dt.datetime.today().weekday() == 1:
   print("Today is a day that starts with T") 
 
-# Thursday is day 5 therefore if weekday is day 5 then it starts with a "T"
-  if dt.datetime.today().weekday() == 5:
-    print("Today is a day that starts with T")
+# Thursday is day 3 therefore it starts with a "T"
+elif dt.datetime.today().weekday() == 3:
+ print("Today is a day that starts with T")
 
 # Any other days do not start with "T"
 else:

@@ -18,4 +18,4 @@ if i >=1:
 
 # If a number less than 1 is entered ask the user to enter a positive number
 else:
-  print("Please input a positive integer greater than 0")
+  print("That is not a positive integer greater than 0")

@@ -17,14 +17,23 @@ This repository contains the solution to the 2019 problem set for the Programmin
 ## Each problem set contains the following:
 
 Solution-1.py - This solution aggregates from 0 to a positive number input by the user.
+
 Solution-2.py - This solution checks if today starts with T.
+
 Solution-3.py - This solution returns integers divisible by 6 but not 12 for a specified range
+
 Solution-4.py - This is the Collatz solution
+
 Solution-5.py - This solution tests if a number is prime
+
 Solution-6.py - This solution returns every second word in a sentence
-Solution-7.py
+
+Solution-7.py - This solution obtains the square root of a floating number
+
 Solution-8.py
+
 Solution-9.py
+
 Solution-10.py
 
 

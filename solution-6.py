@@ -3,7 +3,8 @@
 # Output every second word
 
 # Ask the user for a sentence(string) and call it s:
-
 s = str (input("Please enter a sentence: "))
-for words in s.split()[::2]:
+
+# Use the split to break up the sentence into words
+for words in s.split()[1::2]:
     print(words)
