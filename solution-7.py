@@ -8,10 +8,9 @@ f= float (input("Please enter a positive floating number: "))
 
 # If the floating point number is less than 0 ask the user to enter a positive number:
 if f <= 0:
-  print("Please input a posititve floating number")
-# Use the sqrt function to calculate square root if the number entered is positive (f):
+  print("Please input a positive floating number")
 else:
-# To square a number use **.  **.5 therefore is the square root.
-# Use round to round,1 the square root to 1 decimal places
+# Calculate the square root.  To square a number use **.  (**.5) calculates the square root.
+# Use round to round the result of the square root to 1 decimal place
   result = round(f **(.5),1)
   print(f"The Square Root of {f} is approx. {result}.")
