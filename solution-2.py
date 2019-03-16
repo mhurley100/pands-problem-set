@@ -13,6 +13,6 @@ if dt.datetime.today().weekday() == 1:
 elif dt.datetime.today().weekday() == 3:
  print("Yes - today begins with a T")
 
-# Any other days do not start with "T"
+# Any other days do not start with "T" - Use "else" to catch all other days
 else:
   print("No - today does not begin with a T")

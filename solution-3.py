@@ -5,9 +5,8 @@
 # Name the divisors:
 a,b = 6,12
 
-# Create a range but increase upper end by 1 to ensure it is included
+# Create a range but increase upper end by 1 to ensure it is included:
 for i in range(1000,(10000 + 1)):
-  
-  # Print integers in the range that are divisibe by 6 but not 12
+# Check if the numbers in the range that are divisibe by 6 but not 12 and print.
   if(i % a ==0) and (i % b !=0):
     print(i)
