@@ -2,7 +2,6 @@
 # Solution to problem 8 in the 2019 Problem Set
 # Output todays date in format "Monday,January 10th 2019 at 1:15pm". 
 
-# Date formats "st", "nd", and "rd" is not available on python.
 # Modified from [https://www.tutorialspoint.com/How-do-I-display-the-date-like-Aug-5th-using-python-s-strftime#Rajendra-Dharmkar]
 # Import datetime and call it dt
 from datetime import datetime as dt
