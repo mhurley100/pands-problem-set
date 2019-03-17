@@ -6,10 +6,10 @@
 f= float (input("Please enter a positive floating number: "))
 approx= int (input("Please enter an approximation(integer): "))
 
-# Adapted the formula (better =  1/2 * (approx + n/approx)) to calculate approximate.
-# Adapted from [http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/Newton%27sMethod.html]
-# For integers in the range approx, use the above formula to get a better approximate
+# For integers in the range approx, a better approximation is determined using a looping statement
 for i in range(approx):
+# Adapted the formula (better =  1/2 * (approx + n/approx)) to calculate approximate.  Call it ans
+# Adapted from [http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/Newton%27sMethod.html]
   ans = 0.5 * (approx + f/approx)
 # This better approximate is now the answer
   approx = ans

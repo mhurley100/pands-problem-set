@@ -1,6 +1,6 @@
 # Programming and Scripting Poblemset 2019
 
-This repository contains the solution to the 2019 problem set for the Programming and Scripting Module @ GMIT.
+This repository contains the solutions to the 2019 problem set for the Programming and Scripting Module @ GMIT.
 
 [Problem set is located:] (https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf)
       
@@ -31,7 +31,7 @@ This repository contains the solution to the 2019 problem set for the Programmin
 
 7. olution-6.py - This solution returns every second word in a sentence
 
-8. Solution-7.py - This solution obtains the square root of a floating number
+8. Solution-7.py - This solution obtains the square root of a floating number using approximation
 
 9. Solution-8.py - This solution returns todays date in a certain format
 
@@ -48,3 +48,4 @@ https://stackoverflow.com/
 http://strftime.org/ 
 https://www.tutorialspoint.com/
 http://interactivepython.org/
+https://matplotlib.org/

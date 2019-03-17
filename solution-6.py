@@ -6,7 +6,7 @@
 s = str (input("Please enter a sentence: "))
 
 # Use the split to break up the sentence into words
-# Using the[::x] notation for "slicing".
+# Apply the[::x] notation for "slicing".
 # Modified from stackoverflow [https://stackoverflow.com/a/17645386]
 for words in s.split()[::2]:
 # Modified printing across from stackoverflow. [https://stackoverflow.com/a/10750004]

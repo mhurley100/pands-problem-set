@@ -10,4 +10,5 @@ with open("inishfree.txt", 'r') as f:
 # Print every second line of the text file using f.read().split(). 
 # Using the[::x] notation for "slicing", Modified from stackoverflow [https://stackoverflow.com/a/17645386]
   for line in f.read().split("\n")[::2]:
+# Print every second line
     print(line)
