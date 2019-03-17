@@ -36,16 +36,16 @@ This repository contains the solutions to the 2019 problem set for the Programmi
 9. Solution-8.py - This solution returns todays date in a certain format
 
 10. Solution-9.py - This outputs every second line of a specified text file
-    [Inishfree.txt saved in this repository for the purposes of completing Solution-9.py]
+[Inishfree.txt saved in this repository for the purposes of completing Solution-9.py]
 
 11. Solution-10.py - This solution displays a plot of functions
 
 
 ##  Acknowledgments
 
-https://www.python.org/
-https://stackoverflow.com/
-http://strftime.org/ 
-https://www.tutorialspoint.com/
-http://interactivepython.org/
+https://www.python.org/,
+https://stackoverflow.com/,
+http://strftime.org/, 
+https://www.tutorialspoint.com/,
+http://interactivepython.org/,
 https://matplotlib.org/
