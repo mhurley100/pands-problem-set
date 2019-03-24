@@ -6,7 +6,7 @@
 # To take arguments from the command line, sys needs to be imported
 import sys
 
-# The number of commands needs to be 2 (as filename needs to be present)
+# The number of commands needs to be 2 (as filename needs to be present).  If it is not 2, prompt the user.
 if len(sys.argv) != 2:
 # Tell the user to enter a filename
   print("A single filename needs to be entered!")

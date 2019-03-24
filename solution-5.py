@@ -2,7 +2,7 @@
 # # Solution to problem 5 in the 2019 Problem Set
 # Is it a prime number (divisible by itself and 1)?
 
-# Use "while" and "true" to determine if the input is valid
+# Use "while" and "true" to determine if the input is valid. [Python Tutorial 8.3 Handling Exceptions]
 while True:
 # Screen the user input by using try 
   try:  
@@ -32,4 +32,4 @@ if n > 1:
 # If number entered is less than or equal to 1, it is not a prime number:
 else:
 # Tell the user that the number entered is not prime (as less than or equal to one)
-  print(n,"is not a prime number - input has to be greater than 1")
+  print(n,"is not a prime number - input has to be greater than 1") 

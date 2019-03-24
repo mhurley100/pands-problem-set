@@ -3,7 +3,6 @@
 # Square root of a postive floating number
 
 # Ask the user to input a floating point number and an approximation (integer):
-
 f= float (input("Please enter a positive floating number: "))
 approx= int (input("Please enter an approximation(integer): "))
 

@@ -49,3 +49,5 @@ http://strftime.org/,
 https://www.tutorialspoint.com/,
 http://interactivepython.org/ &
 https://matplotlib.org/
+http://www.numpy.org/
+https://pandas.pydata.org/
