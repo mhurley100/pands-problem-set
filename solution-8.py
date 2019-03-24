@@ -23,9 +23,9 @@ def suffix(day):
   return suffix
 
 # List of directives -[http://strftime.org/] 
-# Remove leading zero in hour by placing "#" symbol in front of "I" 
+# Remove leading zero in day and hour by placing "#" symbol in front of "d" and "I" 
 # [https://stackoverflow.com/a/42709606] 
-today = now.strftime("%A, %B %d" + suffix(now.day))+ now.strftime(" %Y at %#I:%M%p")
+today = now.strftime("%A, %B %#d" + suffix(now.day))+ now.strftime(" %Y at %#I:%M%p")
 
 # Replace uppercase AM & PM with lower case).  
 # Modified from [https://stackoverflow.com/a/30162144]

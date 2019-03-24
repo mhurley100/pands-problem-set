@@ -1,4 +1,4 @@
-# Programming and Scripting Poblemset 2019
+# Programming and Scripting Poblem Set 2019
 
 This repository contains the solutions to the 2019 problem set for the Programming and Scripting Module @ GMIT.
 
@@ -29,7 +29,7 @@ This repository contains the solutions to the 2019 problem set for the Programmi
 
 6. Solution-5.py - This solution tests if a number is prime
 
-7. olution-6.py - This solution returns every second word in a sentence
+7. Solution-6.py - This solution returns every second word in a sentence
 
 8. Solution-7.py - This solution obtains the square root of a floating number using approximation
 
@@ -47,5 +47,5 @@ https://www.python.org/,
 https://stackoverflow.com/,
 http://strftime.org/, 
 https://www.tutorialspoint.com/,
-http://interactivepython.org/,
+http://interactivepython.org/ &
 https://matplotlib.org/
