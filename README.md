@@ -35,7 +35,7 @@ This repository contains the solutions to the 2019 problem set for the Programmi
 
 9. Solution-8.py - This solution returns todays date in a certain format
 
-10. Solution-9.py - This outputs every second line of a specified text file
+10. Solution-9.py - This outputs every second line of a specified text file.  Please input the program and filename as commands on the command line interface in order for the program to run
 [Inishfree.txt saved in this repository for the purposes of completing Solution-9.py]
 
 11. Solution-10.py - This solution displays a plot of functions
@@ -51,3 +51,4 @@ http://interactivepython.org/ &
 https://matplotlib.org/
 http://www.numpy.org/
 https://pandas.pydata.org/
+https://www.kaggle.com

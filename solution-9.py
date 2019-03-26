@@ -34,4 +34,4 @@ except FileNotFoundError:
 # If the name of the file is not entered correctly return an error message
 except NameError:
 # Tell the user that a valid filename has not been entered
-  print("A valid filename needs to be entered")
+  print("A valid filename needs to be entered!")
